@@ -1,10 +1,10 @@
 # Computational Road Lighting
 
-**An independent technical study of road-lighting design at Sydhavnsgade, Copenhagen.**
+An independent technical study of road-lighting design at Sydhavnsgade, Copenhagen.
 
-This project will investigate how site documentation, AI-assisted Rhino modelling, DIALux evo simulation and Python analysis can support a traceable engineering design decision. The first version will compare three deliberately developed configurations—Design A, B and C—and explain the trade-offs behind the final selection.
+This project will investigate how site documentation, AI-assisted Rhino modelling, DIALux evo simulation and Python analysis can support a traceable engineering design decision. The first version will compare three deliberately developed configurations-Design A, B and C-and explain the trade-offs behind the final selection.
 
-**Status: Phase 0 — Project setup.** This repository currently contains the project brief and planned methodology. On-site photography, geometry verification, lighting-class selection, simulations and performance analysis remain to be completed. No measured dimensions, DIALux results or validated performance claims are published at this stage.
+Status: Phase 0 - Project setup. This repository currently contains the project brief and planned methodology. On-site photography, geometry verification, lighting-class selection, simulations and performance analysis remain to be completed. No measured dimensions, DIALux results or validated performance claims are published at this stage.
 
 ## Engineering question
 
@@ -41,7 +41,7 @@ Site references and calculation inputs serve different purposes:
 | Engineering input register | Record dimensions, sources, assumptions and design variables | Assumed values remain labelled as assumptions, even after internal review |
 | DIALux calculation model | Evaluate defined lighting configurations | Results depend on the documented geometry, photometry and calculation settings |
 
-Each geometry input will be identified as **observed**, **estimated**, **assumed**, **measured** or **verified**, with its source and review status recorded. A model check can confirm that geometry matches an input specification; it cannot turn an assumed dimension into a verified site measurement.
+Each geometry input will be identified as observed, estimated, assumed, measured or verified, with its source and review status recorded. A model check can confirm that geometry matches an input specification; it cannot turn an assumed dimension into a verified site measurement.
 
 ## Version 1 scope
 
@@ -67,7 +67,4 @@ These are the intended tools for the study; their inclusion does not imply that 
 
 ## Repository guide
 
-- [Project brief](PROJECT_BRIEF.md) — objective, scope, design variables and planned deliverables.
-- [Methodology](docs/methodology.md) — evidence handling, simulation workflow, comparison and validation.
 
-Models, analysis code, datasets and results will be added as they are produced and reviewed. This is an independent portfolio study; conclusions will be bounded by the evidence, assumptions and validation available.
